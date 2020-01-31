@@ -1,0 +1,464 @@
+[2019-12-18T15:10:38.476] [ERROR] cheese - { AwilixResolutionError: Could not resolve 'booksServices'.
+
+Resolution path: booksServices
+    at resolve (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_awilix@4.2.3@awilix/lib/container.js:238:23)
+    at Object.get (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_awilix@4.2.3@awilix/lib/container.js:65:32)
+    at new LibraryControll (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/dist/server/routes/library.js:16:5)
+    at newClass (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_awilix@4.2.3@awilix/lib/resolvers.js:85:24)
+    at Object.resolve (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_awilix@4.2.3@awilix/lib/resolvers.js:294:20)
+    at Object.build (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_awilix@4.2.3@awilix/lib/container.js:311:37)
+    at memberInvoker (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_awilix-koa@4.0.0@awilix-koa/lib/invokers.js:83:38)
+    at dispatch (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_@koa_router@8.0.5@@koa/router/lib/router.js:353:16
+    at dispatch (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at dispatch (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_@koa_router@8.0.5@@koa/router/lib/router.js:358:31)
+    at dispatch (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at dispatch (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at app.use (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/dist/server/app.js:101:9) status: 500 }
+[2019-12-18T15:10:39.160] [ERROR] cheese - { AwilixResolutionError: Could not resolve 'booksServices'.
+
+Resolution path: booksServices
+    at resolve (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_awilix@4.2.3@awilix/lib/container.js:238:23)
+    at Object.get (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_awilix@4.2.3@awilix/lib/container.js:65:32)
+    at new LibraryControll (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/dist/server/routes/library.js:16:5)
+    at newClass (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_awilix@4.2.3@awilix/lib/resolvers.js:85:24)
+    at Object.resolve (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_awilix@4.2.3@awilix/lib/resolvers.js:294:20)
+    at Object.build (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_awilix@4.2.3@awilix/lib/container.js:311:37)
+    at memberInvoker (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_awilix-koa@4.0.0@awilix-koa/lib/invokers.js:83:38)
+    at dispatch (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_@koa_router@8.0.5@@koa/router/lib/router.js:353:16
+    at dispatch (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at dispatch (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_@koa_router@8.0.5@@koa/router/lib/router.js:358:31)
+    at dispatch (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at dispatch (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at app.use (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/dist/server/app.js:101:9) status: 500 }
+[2019-12-18T15:10:39.866] [ERROR] cheese - { AwilixResolutionError: Could not resolve 'booksServices'.
+
+Resolution path: booksServices
+    at resolve (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_awilix@4.2.3@awilix/lib/container.js:238:23)
+    at Object.get (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_awilix@4.2.3@awilix/lib/container.js:65:32)
+    at new LibraryControll (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/dist/server/routes/library.js:16:5)
+    at newClass (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_awilix@4.2.3@awilix/lib/resolvers.js:85:24)
+    at Object.resolve (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_awilix@4.2.3@awilix/lib/resolvers.js:294:20)
+    at Object.build (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_awilix@4.2.3@awilix/lib/container.js:311:37)
+    at memberInvoker (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_awilix-koa@4.0.0@awilix-koa/lib/invokers.js:83:38)
+    at dispatch (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_@koa_router@8.0.5@@koa/router/lib/router.js:353:16
+    at dispatch (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at dispatch (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_@koa_router@8.0.5@@koa/router/lib/router.js:358:31)
+    at dispatch (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at dispatch (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at app.use (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/dist/server/app.js:101:9) status: 500 }
+[2019-12-18T15:10:55.239] [ERROR] cheese - { AwilixResolutionError: Could not resolve 'booksServices'.
+
+Resolution path: booksServices
+    at resolve (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_awilix@4.2.3@awilix/lib/container.js:238:23)
+    at Object.get (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_awilix@4.2.3@awilix/lib/container.js:65:32)
+    at new LibraryControll (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/dist/server/routes/library.js:16:5)
+    at newClass (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_awilix@4.2.3@awilix/lib/resolvers.js:85:24)
+    at Object.resolve (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_awilix@4.2.3@awilix/lib/resolvers.js:294:20)
+    at Object.build (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_awilix@4.2.3@awilix/lib/container.js:311:37)
+    at memberInvoker (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_awilix-koa@4.0.0@awilix-koa/lib/invokers.js:83:38)
+    at dispatch (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_@koa_router@8.0.5@@koa/router/lib/router.js:353:16
+    at dispatch (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at dispatch (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_@koa_router@8.0.5@@koa/router/lib/router.js:358:31)
+    at dispatch (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at dispatch (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at app.use (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/dist/server/app.js:101:9) status: 500 }
+[2019-12-18T15:11:35.317] [ERROR] cheese - { AwilixResolutionError: Could not resolve 'booksServices'.
+
+Resolution path: booksServices
+    at resolve (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_awilix@4.2.3@awilix/lib/container.js:238:23)
+    at Object.get (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_awilix@4.2.3@awilix/lib/container.js:65:32)
+    at new LibraryControll (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/dist/server/routes/library.js:16:5)
+    at newClass (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_awilix@4.2.3@awilix/lib/resolvers.js:85:24)
+    at Object.resolve (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_awilix@4.2.3@awilix/lib/resolvers.js:294:20)
+    at Object.build (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_awilix@4.2.3@awilix/lib/container.js:311:37)
+    at memberInvoker (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_awilix-koa@4.0.0@awilix-koa/lib/invokers.js:83:38)
+    at dispatch (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_@koa_router@8.0.5@@koa/router/lib/router.js:353:16
+    at dispatch (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at dispatch (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_@koa_router@8.0.5@@koa/router/lib/router.js:358:31)
+    at dispatch (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at dispatch (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at app.use (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/dist/server/app.js:101:9) status: 500 }
+[2019-12-18T15:11:36.637] [ERROR] cheese - { AwilixResolutionError: Could not resolve 'booksServices'.
+
+Resolution path: booksServices
+    at resolve (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_awilix@4.2.3@awilix/lib/container.js:238:23)
+    at Object.get (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_awilix@4.2.3@awilix/lib/container.js:65:32)
+    at new LibraryControll (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/dist/server/routes/library.js:16:5)
+    at newClass (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_awilix@4.2.3@awilix/lib/resolvers.js:85:24)
+    at Object.resolve (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_awilix@4.2.3@awilix/lib/resolvers.js:294:20)
+    at Object.build (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_awilix@4.2.3@awilix/lib/container.js:311:37)
+    at memberInvoker (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_awilix-koa@4.0.0@awilix-koa/lib/invokers.js:83:38)
+    at dispatch (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_@koa_router@8.0.5@@koa/router/lib/router.js:353:16
+    at dispatch (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at dispatch (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_@koa_router@8.0.5@@koa/router/lib/router.js:358:31)
+    at dispatch (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at dispatch (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at app.use (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/dist/server/app.js:101:9) status: 500 }
+[2019-12-18T15:14:38.646] [ERROR] cheese - { ReferenceError: booksServices is not defined
+    at new LibraryControll (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/dist/server/routes/library.js:17:26)
+    at newClass (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_awilix@4.2.3@awilix/lib/resolvers.js:85:24)
+    at Object.resolve (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_awilix@4.2.3@awilix/lib/resolvers.js:294:20)
+    at Object.build (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_awilix@4.2.3@awilix/lib/container.js:311:37)
+    at memberInvoker (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_awilix-koa@4.0.0@awilix-koa/lib/invokers.js:83:38)
+    at dispatch (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_@koa_router@8.0.5@@koa/router/lib/router.js:353:16
+    at dispatch (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at dispatch (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_@koa_router@8.0.5@@koa/router/lib/router.js:358:31)
+    at dispatch (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at dispatch (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at app.use (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/dist/server/app.js:101:9)
+    at dispatch (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at views (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_koa-views@6.2.1@koa-views/src/index.js:60:12) status: 500 }
+[2019-12-18T15:15:40.276] [ERROR] cheese - { ReferenceError: ctx is not defined
+    at LibraryControll.actionList (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/dist/server/routes/library.js:22:5)
+    at memberInvoker (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_awilix-koa@4.0.0@awilix-koa/lib/invokers.js:85:45)
+    at dispatch (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_@koa_router@8.0.5@@koa/router/lib/router.js:353:16
+    at dispatch (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at dispatch (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_@koa_router@8.0.5@@koa/router/lib/router.js:358:31)
+    at dispatch (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at dispatch (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at app.use (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/dist/server/app.js:101:9)
+    at dispatch (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at views (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_koa-views@6.2.1@koa-views/src/index.js:60:12)
+    at dispatch (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at serve (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_koa-static@5.0.0@koa-static/index.js:53:15) status: 500 }
+[2019-12-18T15:35:25.397] [ERROR] cheese - { AwilixResolutionError: Could not resolve 'booksServices'.
+
+Resolution path: booksServices
+    at resolve (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_awilix@4.2.3@awilix/lib/container.js:238:23)
+    at Object.get (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_awilix@4.2.3@awilix/lib/container.js:65:32)
+    at new LibraryControll (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/dist/server/routes/library.js:16:5)
+    at newClass (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_awilix@4.2.3@awilix/lib/resolvers.js:85:24)
+    at Object.resolve (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_awilix@4.2.3@awilix/lib/resolvers.js:294:20)
+    at Object.build (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_awilix@4.2.3@awilix/lib/container.js:311:37)
+    at memberInvoker (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_awilix-koa@4.0.0@awilix-koa/lib/invokers.js:83:38)
+    at dispatch (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_@koa_router@8.0.5@@koa/router/lib/router.js:353:16
+    at dispatch (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at dispatch (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_@koa_router@8.0.5@@koa/router/lib/router.js:358:31)
+    at dispatch (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at dispatch (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at app.use (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/dist/server/app.js:102:9) status: 500 }
+[2019-12-18T15:35:34.595] [ERROR] cheese - { AwilixResolutionError: Could not resolve 'booksServices'.
+
+Resolution path: booksServices
+    at resolve (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_awilix@4.2.3@awilix/lib/container.js:238:23)
+    at Object.get (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_awilix@4.2.3@awilix/lib/container.js:65:32)
+    at new LibraryControll (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/dist/server/routes/library.js:16:5)
+    at newClass (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_awilix@4.2.3@awilix/lib/resolvers.js:85:24)
+    at Object.resolve (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_awilix@4.2.3@awilix/lib/resolvers.js:294:20)
+    at Object.build (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_awilix@4.2.3@awilix/lib/container.js:311:37)
+    at memberInvoker (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_awilix-koa@4.0.0@awilix-koa/lib/invokers.js:83:38)
+    at dispatch (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_@koa_router@8.0.5@@koa/router/lib/router.js:353:16
+    at dispatch (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at dispatch (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_@koa_router@8.0.5@@koa/router/lib/router.js:358:31)
+    at dispatch (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at dispatch (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at app.use (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/dist/server/app.js:102:9) status: 500 }
+[2019-12-18T15:35:38.372] [ERROR] cheese - { AwilixResolutionError: Could not resolve 'booksServices'.
+
+Resolution path: booksServices
+    at resolve (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_awilix@4.2.3@awilix/lib/container.js:238:23)
+    at Object.get (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_awilix@4.2.3@awilix/lib/container.js:65:32)
+    at new LibraryControll (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/dist/server/routes/library.js:16:5)
+    at newClass (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_awilix@4.2.3@awilix/lib/resolvers.js:85:24)
+    at Object.resolve (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_awilix@4.2.3@awilix/lib/resolvers.js:294:20)
+    at Object.build (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_awilix@4.2.3@awilix/lib/container.js:311:37)
+    at memberInvoker (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_awilix-koa@4.0.0@awilix-koa/lib/invokers.js:83:38)
+    at dispatch (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_@koa_router@8.0.5@@koa/router/lib/router.js:353:16
+    at dispatch (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at dispatch (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_@koa_router@8.0.5@@koa/router/lib/router.js:358:31)
+    at dispatch (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at dispatch (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at app.use (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/dist/server/app.js:102:9) status: 500 }
+[2019-12-18T15:35:42.471] [ERROR] cheese - { AwilixResolutionError: Could not resolve 'booksServices'.
+
+Resolution path: booksServices
+    at resolve (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_awilix@4.2.3@awilix/lib/container.js:238:23)
+    at Object.get (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_awilix@4.2.3@awilix/lib/container.js:65:32)
+    at new LibraryControll (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/dist/server/routes/library.js:16:5)
+    at newClass (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_awilix@4.2.3@awilix/lib/resolvers.js:85:24)
+    at Object.resolve (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_awilix@4.2.3@awilix/lib/resolvers.js:294:20)
+    at Object.build (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_awilix@4.2.3@awilix/lib/container.js:311:37)
+    at memberInvoker (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_awilix-koa@4.0.0@awilix-koa/lib/invokers.js:83:38)
+    at dispatch (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_@koa_router@8.0.5@@koa/router/lib/router.js:353:16
+    at dispatch (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at dispatch (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_@koa_router@8.0.5@@koa/router/lib/router.js:358:31)
+    at dispatch (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at dispatch (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at app.use (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/dist/server/app.js:102:9) status: 500 }
+[2019-12-18T15:36:03.344] [ERROR] cheese - { AwilixResolutionError: Could not resolve 'BooksServices'.
+
+Resolution path: BooksServices
+    at resolve (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_awilix@4.2.3@awilix/lib/container.js:238:23)
+    at Object.get (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_awilix@4.2.3@awilix/lib/container.js:65:32)
+    at new LibraryControll (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/dist/server/routes/library.js:16:5)
+    at newClass (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_awilix@4.2.3@awilix/lib/resolvers.js:85:24)
+    at Object.resolve (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_awilix@4.2.3@awilix/lib/resolvers.js:294:20)
+    at Object.build (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_awilix@4.2.3@awilix/lib/container.js:311:37)
+    at memberInvoker (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_awilix-koa@4.0.0@awilix-koa/lib/invokers.js:83:38)
+    at dispatch (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_@koa_router@8.0.5@@koa/router/lib/router.js:353:16
+    at dispatch (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at dispatch (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_@koa_router@8.0.5@@koa/router/lib/router.js:358:31)
+    at dispatch (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at dispatch (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at app.use (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/dist/server/app.js:102:9) status: 500 }
+[2019-12-18T15:36:12.346] [ERROR] cheese - { AwilixResolutionError: Could not resolve 'booksServices'.
+
+Resolution path: booksServices
+    at resolve (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_awilix@4.2.3@awilix/lib/container.js:238:23)
+    at Object.get (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_awilix@4.2.3@awilix/lib/container.js:65:32)
+    at new LibraryControll (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/dist/server/routes/library.js:16:5)
+    at newClass (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_awilix@4.2.3@awilix/lib/resolvers.js:85:24)
+    at Object.resolve (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_awilix@4.2.3@awilix/lib/resolvers.js:294:20)
+    at Object.build (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_awilix@4.2.3@awilix/lib/container.js:311:37)
+    at memberInvoker (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_awilix-koa@4.0.0@awilix-koa/lib/invokers.js:83:38)
+    at dispatch (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_@koa_router@8.0.5@@koa/router/lib/router.js:353:16
+    at dispatch (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at dispatch (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_@koa_router@8.0.5@@koa/router/lib/router.js:358:31)
+    at dispatch (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at dispatch (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at app.use (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/dist/server/app.js:102:9) status: 500 }
+[2019-12-18T15:39:50.805] [ERROR] cheese - { AwilixResolutionError: Could not resolve 'booksServices'.
+
+Resolution path: booksServices
+    at resolve (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_awilix@4.2.3@awilix/lib/container.js:238:23)
+    at Object.get (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_awilix@4.2.3@awilix/lib/container.js:65:32)
+    at new LibraryControll (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/dist/server/routes/library.js:16:5)
+    at newClass (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_awilix@4.2.3@awilix/lib/resolvers.js:85:24)
+    at Object.resolve (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_awilix@4.2.3@awilix/lib/resolvers.js:294:20)
+    at Object.build (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_awilix@4.2.3@awilix/lib/container.js:311:37)
+    at memberInvoker (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_awilix-koa@4.0.0@awilix-koa/lib/invokers.js:83:38)
+    at dispatch (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_@koa_router@8.0.5@@koa/router/lib/router.js:353:16
+    at dispatch (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at dispatch (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_@koa_router@8.0.5@@koa/router/lib/router.js:358:31)
+    at dispatch (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at dispatch (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at app.use (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/dist/server/app.js:102:9) status: 500 }
+[2019-12-18T15:39:51.729] [ERROR] cheese - { AwilixResolutionError: Could not resolve 'booksServices'.
+
+Resolution path: booksServices
+    at resolve (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_awilix@4.2.3@awilix/lib/container.js:238:23)
+    at Object.get (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_awilix@4.2.3@awilix/lib/container.js:65:32)
+    at new LibraryControll (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/dist/server/routes/library.js:16:5)
+    at newClass (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_awilix@4.2.3@awilix/lib/resolvers.js:85:24)
+    at Object.resolve (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_awilix@4.2.3@awilix/lib/resolvers.js:294:20)
+    at Object.build (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_awilix@4.2.3@awilix/lib/container.js:311:37)
+    at memberInvoker (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_awilix-koa@4.0.0@awilix-koa/lib/invokers.js:83:38)
+    at dispatch (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_@koa_router@8.0.5@@koa/router/lib/router.js:353:16
+    at dispatch (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at dispatch (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_@koa_router@8.0.5@@koa/router/lib/router.js:358:31)
+    at dispatch (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at dispatch (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at app.use (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/dist/server/app.js:102:9) status: 500 }
+[2019-12-18T15:39:52.001] [ERROR] cheese - { AwilixResolutionError: Could not resolve 'booksServices'.
+
+Resolution path: booksServices
+    at resolve (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_awilix@4.2.3@awilix/lib/container.js:238:23)
+    at Object.get (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_awilix@4.2.3@awilix/lib/container.js:65:32)
+    at new LibraryControll (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/dist/server/routes/library.js:16:5)
+    at newClass (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_awilix@4.2.3@awilix/lib/resolvers.js:85:24)
+    at Object.resolve (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_awilix@4.2.3@awilix/lib/resolvers.js:294:20)
+    at Object.build (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_awilix@4.2.3@awilix/lib/container.js:311:37)
+    at memberInvoker (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_awilix-koa@4.0.0@awilix-koa/lib/invokers.js:83:38)
+    at dispatch (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_@koa_router@8.0.5@@koa/router/lib/router.js:353:16
+    at dispatch (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at dispatch (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_@koa_router@8.0.5@@koa/router/lib/router.js:358:31)
+    at dispatch (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at dispatch (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at app.use (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/dist/server/app.js:102:9) status: 500 }
+[2019-12-18T15:39:52.174] [ERROR] cheese - { AwilixResolutionError: Could not resolve 'booksServices'.
+
+Resolution path: booksServices
+    at resolve (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_awilix@4.2.3@awilix/lib/container.js:238:23)
+    at Object.get (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_awilix@4.2.3@awilix/lib/container.js:65:32)
+    at new LibraryControll (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/dist/server/routes/library.js:16:5)
+    at newClass (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_awilix@4.2.3@awilix/lib/resolvers.js:85:24)
+    at Object.resolve (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_awilix@4.2.3@awilix/lib/resolvers.js:294:20)
+    at Object.build (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_awilix@4.2.3@awilix/lib/container.js:311:37)
+    at memberInvoker (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_awilix-koa@4.0.0@awilix-koa/lib/invokers.js:83:38)
+    at dispatch (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_@koa_router@8.0.5@@koa/router/lib/router.js:353:16
+    at dispatch (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at dispatch (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_@koa_router@8.0.5@@koa/router/lib/router.js:358:31)
+    at dispatch (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at dispatch (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at app.use (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/dist/server/app.js:102:9) status: 500 }
+[2019-12-18T15:39:52.316] [ERROR] cheese - { AwilixResolutionError: Could not resolve 'booksServices'.
+
+Resolution path: booksServices
+    at resolve (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_awilix@4.2.3@awilix/lib/container.js:238:23)
+    at Object.get (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_awilix@4.2.3@awilix/lib/container.js:65:32)
+    at new LibraryControll (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/dist/server/routes/library.js:16:5)
+    at newClass (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_awilix@4.2.3@awilix/lib/resolvers.js:85:24)
+    at Object.resolve (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_awilix@4.2.3@awilix/lib/resolvers.js:294:20)
+    at Object.build (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_awilix@4.2.3@awilix/lib/container.js:311:37)
+    at memberInvoker (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_awilix-koa@4.0.0@awilix-koa/lib/invokers.js:83:38)
+    at dispatch (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_@koa_router@8.0.5@@koa/router/lib/router.js:353:16
+    at dispatch (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at dispatch (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_@koa_router@8.0.5@@koa/router/lib/router.js:358:31)
+    at dispatch (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at dispatch (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at app.use (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/dist/server/app.js:102:9) status: 500 }
+[2019-12-18T15:39:52.588] [ERROR] cheese - { AwilixResolutionError: Could not resolve 'booksServices'.
+
+Resolution path: booksServices
+    at resolve (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_awilix@4.2.3@awilix/lib/container.js:238:23)
+    at Object.get (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_awilix@4.2.3@awilix/lib/container.js:65:32)
+    at new LibraryControll (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/dist/server/routes/library.js:16:5)
+    at newClass (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_awilix@4.2.3@awilix/lib/resolvers.js:85:24)
+    at Object.resolve (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_awilix@4.2.3@awilix/lib/resolvers.js:294:20)
+    at Object.build (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_awilix@4.2.3@awilix/lib/container.js:311:37)
+    at memberInvoker (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_awilix-koa@4.0.0@awilix-koa/lib/invokers.js:83:38)
+    at dispatch (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_@koa_router@8.0.5@@koa/router/lib/router.js:353:16
+    at dispatch (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at dispatch (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_@koa_router@8.0.5@@koa/router/lib/router.js:358:31)
+    at dispatch (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at dispatch (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at app.use (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/dist/server/app.js:102:9) status: 500 }
+[2019-12-19T21:24:58.158] [ERROR] cheese - { Error: /Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/dist/web/pages/book-list.pug:7:4
+    5| 
+    6| block content
+  > 7|   a[href="/library/add"]
+----------^
+    8|     button.btn.btn-primary(style="margin-bottom:20px") 新增图书
+    9|   table.table.table-bordered
+    10|     thead
+
+unexpected text "[href"
+    at makeError (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_pug-error@1.3.3@pug-error/index.js:32:13)
+    at Lexer.error (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_pug-lexer@4.1.0@pug-lexer/index.js:59:15)
+    at Lexer.fail (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_pug-lexer@4.1.0@pug-lexer/index.js:1445:10)
+    at Lexer.advance (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_pug-lexer@4.1.0@pug-lexer/index.js:1505:15)
+    at Lexer.callLexerFunction (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_pug-lexer@4.1.0@pug-lexer/index.js:1460:23)
+    at Lexer.getTokens (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_pug-lexer@4.1.0@pug-lexer/index.js:1516:12)
+    at lex (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_pug-lexer@4.1.0@pug-lexer/index.js:12:42)
+    at Object.lex (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_pug@2.0.4@pug/lib/index.js:100:27)
+    at Function.loadString [as string] (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_pug-load@2.0.12@pug-load/index.js:44:24)
+    at compileBody (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_pug@2.0.4@pug/lib/index.js:86:18)
+    at Object.exports.compile (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_pug@2.0.4@pug/lib/index.js:242:16)
+    at handleTemplateCache (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_pug@2.0.4@pug/lib/index.js:215:25)
+    at Object.exports.compileFile (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_pug@2.0.4@pug/lib/index.js:356:10)
+    at /Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_consolidate@0.15.1@consolidate/lib/consolidate.js:950:58
+    at /Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_consolidate@0.15.1@consolidate/lib/consolidate.js:161:5
+    at Promise._execute (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_bluebird@3.7.2@bluebird/js/release/debuggability.js:384:9)
+  code: 'PUG:UNEXPECTED_TEXT',
+  msg: 'unexpected text "[href"',
+  line: 7,
+  column: 4,
+  filename:
+   '/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/dist/web/pages/book-list.pug',
+  src:
+   'extends ../layouts/layout.pug\n\nblock styles\n  link(rel=\'stylesheet\', href=\'/public/css/book-list.css\')\n\nblock content\n  a[href="/library/add"]\n    button.btn.btn-primary(style="margin-bottom:20px") 新增图书\n  table.table.table-bordered\n    thead\n      tr\n        th #\n        th 书名\n        th 作者\n        th 价格\n        th 操作\n    tbody\n      each book in books\n        tr\n          th(scope="row")=book.bookId\n          td=book.bookName\n          td=book.author\n          td=book.bookPrice\n          td\n            button.btn.btn-danger(style="margin-right:10px;") 删除\n            button.btn.btn-success.btn-update 修改\nblock scripts\n  script(src="/public/js/book-list.bundle.js")\n\n\n\n\n',
+  toJSON: [Function],
+  status: 500 }
+[2019-12-19T21:24:59.793] [ERROR] cheese - { Error: /Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/dist/web/pages/book-list.pug:7:4
+    5| 
+    6| block content
+  > 7|   a[href="/library/add"]
+----------^
+    8|     button.btn.btn-primary(style="margin-bottom:20px") 新增图书
+    9|   table.table.table-bordered
+    10|     thead
+
+unexpected text "[href"
+    at makeError (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_pug-error@1.3.3@pug-error/index.js:32:13)
+    at Lexer.error (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_pug-lexer@4.1.0@pug-lexer/index.js:59:15)
+    at Lexer.fail (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_pug-lexer@4.1.0@pug-lexer/index.js:1445:10)
+    at Lexer.advance (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_pug-lexer@4.1.0@pug-lexer/index.js:1505:15)
+    at Lexer.callLexerFunction (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_pug-lexer@4.1.0@pug-lexer/index.js:1460:23)
+    at Lexer.getTokens (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_pug-lexer@4.1.0@pug-lexer/index.js:1516:12)
+    at lex (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_pug-lexer@4.1.0@pug-lexer/index.js:12:42)
+    at Object.lex (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_pug@2.0.4@pug/lib/index.js:100:27)
+    at Function.loadString [as string] (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_pug-load@2.0.12@pug-load/index.js:44:24)
+    at compileBody (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_pug@2.0.4@pug/lib/index.js:86:18)
+    at Object.exports.compile (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_pug@2.0.4@pug/lib/index.js:242:16)
+    at handleTemplateCache (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_pug@2.0.4@pug/lib/index.js:215:25)
+    at Object.exports.compileFile (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_pug@2.0.4@pug/lib/index.js:356:10)
+    at /Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_consolidate@0.15.1@consolidate/lib/consolidate.js:950:58
+    at /Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_consolidate@0.15.1@consolidate/lib/consolidate.js:161:5
+    at Promise._execute (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_bluebird@3.7.2@bluebird/js/release/debuggability.js:384:9)
+  code: 'PUG:UNEXPECTED_TEXT',
+  msg: 'unexpected text "[href"',
+  line: 7,
+  column: 4,
+  filename:
+   '/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/dist/web/pages/book-list.pug',
+  src:
+   'extends ../layouts/layout.pug\n\nblock styles\n  link(rel=\'stylesheet\', href=\'/public/css/book-list.css\')\n\nblock content\n  a[href="/library/add"]\n    button.btn.btn-primary(style="margin-bottom:20px") 新增图书\n  table.table.table-bordered\n    thead\n      tr\n        th #\n        th 书名\n        th 作者\n        th 价格\n        th 操作\n    tbody\n      each book in books\n        tr\n          th(scope="row")=book.bookId\n          td=book.bookName\n          td=book.author\n          td=book.bookPrice\n          td\n            button.btn.btn-danger(style="margin-right:10px;") 删除\n            button.btn.btn-success.btn-update 修改\nblock scripts\n  script(src="/public/js/book-list.bundle.js")\n\n\n\n\n',
+  toJSON: [Function],
+  status: 500 }
+[2019-12-19T21:25:13.790] [ERROR] cheese - { ReferenceError: ctx is not defined
+    at LibraryControll.asyncAdd (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/dist/server/routes/library.js:30:5)
+    at memberInvoker (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_awilix-koa@4.0.0@awilix-koa/lib/invokers.js:85:45)
+    at dispatch (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_@koa_router@8.0.5@@koa/router/lib/router.js:353:16
+    at dispatch (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at dispatch (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_@koa_router@8.0.5@@koa/router/lib/router.js:358:31)
+    at dispatch (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at /Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_koa-compose@4.1.0@koa-compose/index.js:34:12
+    at dispatch (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at app.use (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/dist/server/app.js:102:9)
+    at dispatch (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at views (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_koa-views@6.2.1@koa-views/src/index.js:60:12)
+    at dispatch (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
+    at serve (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_koa-static@5.0.0@koa-static/index.js:53:15) status: 500 }
+[2020-01-30T20:58:34.726] [ERROR] cheese - aaaa

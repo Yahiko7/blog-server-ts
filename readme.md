@@ -337,6 +337,179 @@ https://blog.csdn.net/lihefei_coder/article/details/95205095
 - inversify koa 封装版本 inversify-koa-utils
 - 在inversify 用装饰器绑定依赖关系 inversify-binding-decorators
 
+inversify 手动绑定关系写法：
+
+步骤1: 声明接口和类型
+```javascript
+// file interfaces.ts
+export interface Warrior {
+  fight(): string;
+  sneak(): string;
+}
+
+export interface Weapon {
+  hit(): string;
+}
+
+export interface ThrowableWeapon {
+  throw(): string;
+}
+```
+
+inversify需要使用type作为标识符,可以使用Symbol作为标识服
+
+```javascript
+// file types.ts
+
+const TYPES = {
+    Warrior: Symbol.for("Warrior"),
+    Weapon: Symbol.for("Weapon"),
+    ThrowableWeapon: Symbol.for("ThrowableWeapon")
+};
+
+export { TYPES };
+```
+
+步骤二：用 @injectable 和 @inject 装饰器 作为依赖
+
+```javascript
+import { injectable, inject } from "inversify";
+import "reflect-metadata";
+import { Weapon, ThrowableWeapon, Warrior } from "./interfaces";
+import { TYPES } from "./types";
+
+@injectable()
+class Katana implements Weapon {
+  public hit() {
+      return "cut!";
+  }
+}
+
+@injectable()
+class Shuriken implements ThrowableWeapon {
+  public throw() {
+      return "hit!";
+  }
+}
+
+@injectable()
+class Ninja implements Warrior {
+
+  private _katana: Weapon;
+  private _shuriken: ThrowableWeapon;
+
+  public constructor(
+    @inject(TYPES.Weapon) katana: Weapon,
+    @inject(TYPES.ThrowableWeapon) shuriken: ThrowableWeapon
+  ) {
+      this._katana = katana;
+      this._shuriken = shuriken;
+  }
+
+  public fight() { return this._katana.hit(); }
+  public sneak() { return this._shuriken.throw(); }
+
+}
+
+export { Ninja, Katana, Shuriken };
+```
+
+还可以使用属性注入替代构造器注入
+
+```javascript
+@injectable()
+class Ninja implements Warrior {
+    @inject(TYPES.Weapon) private _katana: Weapon;
+    @inject(TYPES.ThrowableWeapon) private _shuriken: ThrowableWeapon;
+    public fight() { return this._katana.hit(); }
+    public sneak() { return this._shuriken.throw(); }
+}
+```
+
+步骤3:创建和配置一个容器
+
+建议在一个单独的文件中 inversify.config.ts 创建容器，这是唯一存在耦合的地方。
+
+```javascript
+// file inversify.config.ts
+
+import { Container } from "inversify";
+import { TYPES } from "./types";
+import { Warrior, Weapon, ThrowableWeapon } from "./interfaces";
+import { Ninja, Katana, Shuriken } from "./entities";
+
+const myContainer = new Container();
+myContainer.bind<Warrior>(TYPES.Warrior).to(Ninja);
+myContainer.bind<Weapon>(TYPES.Weapon).to(Katana);
+myContainer.bind<ThrowableWeapon>(TYPES.ThrowableWeapon).to(Shuriken);
+
+export { myContainer };
+```
 
 
+步骤四：解决依赖关系
 
+通过上面的步骤，我们可以 Container 的 get<T> 方法来解析依赖，
+解决文件与文件相互引用的耦合关系。
+
+```javascript
+import { myContainer } from "./inversify.config";
+import { TYPES } from "./types";
+import { Warrior } from "./interfaces";
+
+const ninja = myContainer.get<Warrior>(TYPES.Warrior);
+
+expect(ninja.fight()).eql("cut!"); // true
+expect(ninja.sneak()).eql("hit!"); // true
+```
+
+inversify 详细文档请看：https://github.com/inversify/InversifyJS#installation
+
+上面 inversify 需要手动绑定依赖关系。使用 inversify-binding-decorators 则可以让我们使用 装饰器 decorator 来声明绑定：
+
+```javascript
+import { injectable, Container } from "inversify";
+import { provide, buildProviderModule } from "inversify-binding-decorators";
+import "reflect-metadata";
+
+@provide(Katana)
+class Katana implements Weapon {
+    public hit() {
+        return "cut!";
+    }
+}
+
+@provide(Shuriken)
+class Shuriken implements ThrowableWeapon {
+    public throw() {
+        return "hit!";
+    }
+}
+
+var container = new Container();
+// Reflects all decorators provided by this package and packages them into 
+// a module to be loaded by the container
+container.load(buildProviderModule());
+```
+
+#### typescript
+
+ts-node 可以使我们直接运行ts文件,而不用将ts编译为js文件后再执行,使用它,我们就能快速的进行ts的调试.
+
+nodemon 可以监控文件的修改,当文件某文件一旦被修改,nodemon就会自动重启程序,以实现热重载.
+
+热重载：
+
+```json
+{
+  "watch-server": "nodemon --watch 'src/**/*' -e ts,tsx --exec 'ts-node' ./src/server.ts"
+}
+```
+- —watch 'src/**/*': 监听src目录下的文件
+- -e ts,tsx: 监听ts和tsx文件
+- —exrc 'ts-node' ./src/server.ts: 执行方式是使用ts-node运行./src/server.t文件
+
+安装 @types/node
+```javascript
+cnpm install -D @types/node
+```

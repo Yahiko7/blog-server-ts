@@ -1,6 +1,7 @@
 import * as mongoose from 'mongoose'
+import modelTags from '../contanst/modelTags'
+import { provide } from 'inversify-binding-decorators';
 const Schema = mongoose.Schema;
-
 const tagSchema = new Schema({
   // 标签名称
   name: { type: String, required: true, validate: /\S+/ },
@@ -18,7 +19,4 @@ tagSchema.index({
 	unique: true
 })
 
-
-const TagModel = mongoose.model('tag', tagSchema)
-
-export default TagModel
+export const TagModel = mongoose.model('tag', tagSchema)
