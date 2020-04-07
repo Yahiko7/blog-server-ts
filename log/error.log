@@ -462,3 +462,455 @@ unexpected text "[href"
     at dispatch (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
     at serve (/Users/xiezhibin/Desktop/学习/code/gitubcode/koa-demo/node_modules/_koa-static@5.0.0@koa-static/index.js:53:15) status: 500 }
 [2020-01-30T20:58:34.726] [ERROR] cheese - aaaa
+[2020-02-23T15:23:14.898] [ERROR] cheese - { MissingSchemaError: Schema hasn't been registered for model "tag".
+Use mongoose.model(name, schema)
+    at new MissingSchemaError (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongoose/lib/error/missingSchema.js:22:11)
+    at NativeConnection.Connection.model (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongoose/lib/connection.js:1080:11)
+    at getModelsMapForPopulate (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongoose/lib/helpers/populate/getModelsMapForPopulate.js:262:59)
+    at populate (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongoose/lib/model.js:4294:21)
+    at _populate (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongoose/lib/model.js:4264:5)
+    at cb (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongoose/lib/model.js:4239:5)
+    at promiseOrCallback (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongoose/lib/helpers/promiseOrCallback.js:9:12)
+    at Function.Model.populate (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongoose/lib/model.js:4237:10)
+    at cb (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongoose/lib/query.js:1934:17)
+    at executeCallback (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongodb/lib/operations/execute_operation.js:74:5)
+    at handleCallback (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongodb/lib/utils.js:128:55)
+    at cursor.close (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongodb/lib/operations/to_array.js:36:13)
+    at handleCallback (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongodb/lib/utils.js:128:55)
+    at completeClose (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongodb/lib/cursor.js:859:16)
+    at Cursor.close (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongodb/lib/cursor.js:878:12)
+    at cursor._next (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongodb/lib/operations/to_array.js:35:25)
+  message:
+   'Schema hasn\'t been registered for model "tag".\nUse mongoose.model(name, schema)',
+  name: 'MissingSchemaError' }
+[2020-02-23T15:25:26.755] [ERROR] cheese - { MissingSchemaError: Schema hasn't been registered for model "tag".
+Use mongoose.model(name, schema)
+    at new MissingSchemaError (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongoose/lib/error/missingSchema.js:22:11)
+    at NativeConnection.Connection.model (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongoose/lib/connection.js:1080:11)
+    at getModelsMapForPopulate (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongoose/lib/helpers/populate/getModelsMapForPopulate.js:262:59)
+    at populate (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongoose/lib/model.js:4294:21)
+    at _populate (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongoose/lib/model.js:4264:5)
+    at cb (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongoose/lib/model.js:4239:5)
+    at promiseOrCallback (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongoose/lib/helpers/promiseOrCallback.js:9:12)
+    at Function.Model.populate (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongoose/lib/model.js:4237:10)
+    at cb (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongoose/lib/query.js:1934:17)
+    at executeCallback (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongodb/lib/operations/execute_operation.js:74:5)
+    at handleCallback (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongodb/lib/utils.js:128:55)
+    at cursor.close (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongodb/lib/operations/to_array.js:36:13)
+    at handleCallback (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongodb/lib/utils.js:128:55)
+    at completeClose (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongodb/lib/cursor.js:859:16)
+    at Cursor.close (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongodb/lib/cursor.js:878:12)
+    at cursor._next (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongodb/lib/operations/to_array.js:35:25)
+  message:
+   'Schema hasn\'t been registered for model "tag".\nUse mongoose.model(name, schema)',
+  name: 'MissingSchemaError' }
+[2020-02-23T15:32:24.598] [ERROR] cheese - { UnauthorizedError: 您还没登录,或者登录信息已过期，请重新登录！
+    at Object.throw (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/koa/lib/context.js:97:11)
+    at /Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/middlewares/sessionCheck.ts:10:18
+    at step (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/middlewares/sessionCheck.ts:33:23)
+    at Object.next (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/middlewares/sessionCheck.ts:14:53)
+    at /Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/middlewares/sessionCheck.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/middlewares/sessionCheck.ts:4:12)
+    at /Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/middlewares/sessionCheck.ts:45:16
+    at dispatch (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at Object.<anonymous> (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/middlewares/error.ts:29:15)
+    at step (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/middlewares/error.ts:33:23)
+    at Object.next (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/middlewares/error.ts:14:53)
+    at /Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/middlewares/error.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/middlewares/error.ts:4:12)
+    at /Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/middlewares/error.ts:26:29 message: '您还没登录,或者登录信息已过期，请重新登录！' }
+[2020-02-23T15:32:31.372] [ERROR] cheese - { MissingSchemaError: Schema hasn't been registered for model "tag".
+Use mongoose.model(name, schema)
+    at new MissingSchemaError (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongoose/lib/error/missingSchema.js:22:11)
+    at NativeConnection.Connection.model (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongoose/lib/connection.js:1080:11)
+    at getModelsMapForPopulate (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongoose/lib/helpers/populate/getModelsMapForPopulate.js:262:59)
+    at populate (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongoose/lib/model.js:4294:21)
+    at _populate (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongoose/lib/model.js:4264:5)
+    at cb (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongoose/lib/model.js:4239:5)
+    at promiseOrCallback (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongoose/lib/helpers/promiseOrCallback.js:9:12)
+    at Function.Model.populate (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongoose/lib/model.js:4237:10)
+    at cb (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongoose/lib/query.js:1934:17)
+    at executeCallback (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongodb/lib/operations/execute_operation.js:74:5)
+    at handleCallback (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongodb/lib/utils.js:128:55)
+    at cursor.close (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongodb/lib/operations/to_array.js:36:13)
+    at handleCallback (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongodb/lib/utils.js:128:55)
+    at completeClose (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongodb/lib/cursor.js:859:16)
+    at Cursor.close (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongodb/lib/cursor.js:878:12)
+    at cursor._next (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongodb/lib/operations/to_array.js:35:25)
+  message:
+   'Schema hasn\'t been registered for model "tag".\nUse mongoose.model(name, schema)',
+  name: 'MissingSchemaError' }
+[2020-02-23T16:25:32.562] [ERROR] cheese - { UnauthorizedError: 您还没登录,或者登录信息已过期，请重新登录！
+    at Object.throw (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/koa/lib/context.js:97:11)
+    at /Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/middlewares/sessionCheck.ts:10:18
+    at step (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/middlewares/sessionCheck.ts:33:23)
+    at Object.next (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/middlewares/sessionCheck.ts:14:53)
+    at /Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/middlewares/sessionCheck.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/middlewares/sessionCheck.ts:4:12)
+    at /Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/middlewares/sessionCheck.ts:45:16
+    at dispatch (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at Object.<anonymous> (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/middlewares/error.ts:29:15)
+    at step (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/middlewares/error.ts:33:23)
+    at Object.next (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/middlewares/error.ts:14:53)
+    at /Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/middlewares/error.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/middlewares/error.ts:4:12)
+    at /Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/middlewares/error.ts:26:29 message: '您还没登录,或者登录信息已过期，请重新登录！' }
+[2020-02-23T16:25:40.866] [ERROR] cheese - { ForbiddenError: 创建失败，该标签已存在！
+    at Object.throw (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/koa/lib/context.js:97:11)
+    at TagController.<anonymous> (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/controllers/TagController.ts:43:16)
+    at step (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/controllers/TagController.ts:45:23)
+    at Object.next (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/controllers/TagController.ts:26:53)
+    at fulfilled (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/controllers/TagController.ts:17:58)
+    at process._tickCallback (internal/process/next_tick.js:68:7) message: '创建失败，该标签已存在！' }
+[2020-02-23T16:26:15.933] [ERROR] cheese - { ForbiddenError: 创建失败，该标签已存在！
+    at Object.throw (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/koa/lib/context.js:97:11)
+    at TagController.<anonymous> (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/controllers/TagController.ts:43:16)
+    at step (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/controllers/TagController.ts:45:23)
+    at Object.next (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/controllers/TagController.ts:26:53)
+    at fulfilled (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/controllers/TagController.ts:17:58)
+    at process._tickCallback (internal/process/next_tick.js:68:7) message: '创建失败，该标签已存在！' }
+[2020-02-23T16:30:21.750] [ERROR] cheese - { ForbiddenError: 创建失败，该标签已存在！
+    at Object.throw (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/koa/lib/context.js:97:11)
+    at TagController.<anonymous> (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/controllers/TagController.ts:43:16)
+    at step (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/controllers/TagController.ts:45:23)
+    at Object.next (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/controllers/TagController.ts:26:53)
+    at fulfilled (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/controllers/TagController.ts:17:58)
+    at process._tickCallback (internal/process/next_tick.js:68:7) message: '创建失败，该标签已存在！' }
+[2020-02-23T16:30:36.438] [ERROR] cheese - { BadRequestError: Bad Request
+    at Object.throw (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/koa/lib/context.js:97:11)
+    at Object.<anonymous> (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/utils/context.ts:14:14)
+    at step (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/utils/context.ts:33:23)
+    at Object.next (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/utils/context.ts:14:53)
+    at fulfilled (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/utils/context.ts:5:58)
+    at process._tickCallback (internal/process/next_tick.js:68:7) '0': 'name must be a string', message: 'Bad Request' }
+[2020-02-23T16:40:50.236] [ERROR] cheese - { UnauthorizedError: 您还没登录,或者登录信息已过期，请重新登录！
+    at Object.throw (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/koa/lib/context.js:97:11)
+    at /Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/middlewares/sessionCheck.ts:10:18
+    at step (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/middlewares/sessionCheck.ts:33:23)
+    at Object.next (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/middlewares/sessionCheck.ts:14:53)
+    at /Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/middlewares/sessionCheck.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/middlewares/sessionCheck.ts:4:12)
+    at /Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/middlewares/sessionCheck.ts:45:16
+    at dispatch (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at Object.<anonymous> (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/middlewares/error.ts:29:15)
+    at step (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/middlewares/error.ts:33:23)
+    at Object.next (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/middlewares/error.ts:14:53)
+    at /Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/middlewares/error.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/middlewares/error.ts:4:12)
+    at /Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/middlewares/error.ts:26:29 message: '您还没登录,或者登录信息已过期，请重新登录！' }
+[2020-02-23T16:45:20.942] [ERROR] cheese - TypeError: Invalid select() argument. Must be string or object.
+    at model.Query.select (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongoose/lib/query.js:967:9)
+    at Function.find (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongoose/lib/model.js:2060:6)
+    at TagService.<anonymous> (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/services/TagService.ts:23:21)
+    at step (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/services/TagService.ts:39:23)
+    at Object.next (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/services/TagService.ts:20:53)
+    at /Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/services/TagService.ts:14:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/services/TagService.ts:10:12)
+    at TagService.find (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/services/TagService.ts:74:16)
+    at TagController.<anonymous> (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/controllers/TagController.ts:37:23)
+    at step (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/controllers/TagController.ts:45:23)
+    at Object.next (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/controllers/TagController.ts:26:53)
+    at /Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/controllers/TagController.ts:20:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/controllers/TagController.ts:16:12)
+    at TagController.getTags (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/controllers/TagController.ts:66:16)
+[2020-02-23T17:49:59.506] [ERROR] cheese - { UnauthorizedError: 您还没登录,或者登录信息已过期，请重新登录！
+    at Object.throw (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/koa/lib/context.js:97:11)
+    at /Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/middlewares/sessionCheck.ts:10:18
+    at step (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/middlewares/sessionCheck.ts:33:23)
+    at Object.next (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/middlewares/sessionCheck.ts:14:53)
+    at /Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/middlewares/sessionCheck.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/middlewares/sessionCheck.ts:4:12)
+    at /Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/middlewares/sessionCheck.ts:45:16
+    at dispatch (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at Object.<anonymous> (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/middlewares/error.ts:29:15)
+    at step (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/middlewares/error.ts:33:23)
+    at Object.next (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/middlewares/error.ts:14:53)
+    at /Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/middlewares/error.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/middlewares/error.ts:4:12)
+    at /Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/middlewares/error.ts:26:29 message: '您还没登录,或者登录信息已过期，请重新登录！' }
+[2020-02-23T19:34:51.747] [ERROR] cheese - { UnauthorizedError: 您还没登录,或者登录信息已过期，请重新登录！
+    at Object.throw (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/koa/lib/context.js:97:11)
+    at /Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/middlewares/sessionCheck.ts:10:18
+    at step (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/middlewares/sessionCheck.ts:33:23)
+    at Object.next (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/middlewares/sessionCheck.ts:14:53)
+    at /Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/middlewares/sessionCheck.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/middlewares/sessionCheck.ts:4:12)
+    at /Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/middlewares/sessionCheck.ts:45:16
+    at dispatch (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at Object.<anonymous> (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/middlewares/error.ts:29:15)
+    at step (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/middlewares/error.ts:33:23)
+    at Object.next (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/middlewares/error.ts:14:53)
+    at /Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/middlewares/error.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/middlewares/error.ts:4:12)
+    at /Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/middlewares/error.ts:26:29 message: '您还没登录,或者登录信息已过期，请重新登录！' }
+[2020-02-23T19:36:15.017] [ERROR] cheese - { ForbiddenError: 创建失败，该分类已存在！
+    at Object.throw (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/koa/lib/context.js:97:11)
+    at CategoryController.<anonymous> (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/controllers/CategoryController.ts:24:16)
+    at step (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/controllers/CategoryController.ts:45:23)
+    at Object.next (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/controllers/CategoryController.ts:26:53)
+    at fulfilled (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/controllers/CategoryController.ts:17:58)
+    at process._tickCallback (internal/process/next_tick.js:68:7) message: '创建失败，该分类已存在！' }
+[2020-02-23T19:37:05.313] [ERROR] cheese - { MissingSchemaError: Schema hasn't been registered for model "tag".
+Use mongoose.model(name, schema)
+    at new MissingSchemaError (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongoose/lib/error/missingSchema.js:22:11)
+    at NativeConnection.Connection.model (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongoose/lib/connection.js:1080:11)
+    at getModelsMapForPopulate (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongoose/lib/helpers/populate/getModelsMapForPopulate.js:262:59)
+    at populate (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongoose/lib/model.js:4294:21)
+    at _populate (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongoose/lib/model.js:4264:5)
+    at cb (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongoose/lib/model.js:4239:5)
+    at promiseOrCallback (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongoose/lib/helpers/promiseOrCallback.js:9:12)
+    at Function.Model.populate (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongoose/lib/model.js:4237:10)
+    at cb (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongoose/lib/query.js:1934:17)
+    at executeCallback (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongodb/lib/operations/execute_operation.js:74:5)
+    at handleCallback (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongodb/lib/utils.js:128:55)
+    at cursor.close (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongodb/lib/operations/to_array.js:36:13)
+    at handleCallback (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongodb/lib/utils.js:128:55)
+    at completeClose (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongodb/lib/cursor.js:859:16)
+    at Cursor.close (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongodb/lib/cursor.js:878:12)
+    at cursor._next (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongodb/lib/operations/to_array.js:35:25)
+  message:
+   'Schema hasn\'t been registered for model "tag".\nUse mongoose.model(name, schema)',
+  name: 'MissingSchemaError' }
+[2020-02-23T19:38:08.072] [ERROR] cheese - { MissingSchemaError: Schema hasn't been registered for model "tag".
+Use mongoose.model(name, schema)
+    at new MissingSchemaError (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongoose/lib/error/missingSchema.js:22:11)
+    at NativeConnection.Connection.model (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongoose/lib/connection.js:1080:11)
+    at getModelsMapForPopulate (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongoose/lib/helpers/populate/getModelsMapForPopulate.js:262:59)
+    at populate (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongoose/lib/model.js:4294:21)
+    at _populate (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongoose/lib/model.js:4264:5)
+    at cb (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongoose/lib/model.js:4239:5)
+    at promiseOrCallback (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongoose/lib/helpers/promiseOrCallback.js:9:12)
+    at Function.Model.populate (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongoose/lib/model.js:4237:10)
+    at cb (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongoose/lib/query.js:1934:17)
+    at executeCallback (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongodb/lib/operations/execute_operation.js:74:5)
+    at handleCallback (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongodb/lib/utils.js:128:55)
+    at cursor.close (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongodb/lib/operations/to_array.js:36:13)
+    at handleCallback (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongodb/lib/utils.js:128:55)
+    at completeClose (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongodb/lib/cursor.js:859:16)
+    at Cursor.close (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongodb/lib/cursor.js:878:12)
+    at cursor._next (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongodb/lib/operations/to_array.js:35:25)
+  message:
+   'Schema hasn\'t been registered for model "tag".\nUse mongoose.model(name, schema)',
+  name: 'MissingSchemaError' }
+[2020-02-23T19:40:58.262] [ERROR] cheese - { MissingSchemaError: Schema hasn't been registered for model "tag".
+Use mongoose.model(name, schema)
+    at new MissingSchemaError (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongoose/lib/error/missingSchema.js:22:11)
+    at NativeConnection.Connection.model (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongoose/lib/connection.js:1080:11)
+    at getModelsMapForPopulate (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongoose/lib/helpers/populate/getModelsMapForPopulate.js:262:59)
+    at populate (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongoose/lib/model.js:4294:21)
+    at _populate (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongoose/lib/model.js:4264:5)
+    at cb (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongoose/lib/model.js:4239:5)
+    at promiseOrCallback (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongoose/lib/helpers/promiseOrCallback.js:9:12)
+    at Function.Model.populate (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongoose/lib/model.js:4237:10)
+    at cb (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongoose/lib/query.js:1934:17)
+    at executeCallback (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongodb/lib/operations/execute_operation.js:74:5)
+    at handleCallback (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongodb/lib/utils.js:128:55)
+    at cursor.close (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongodb/lib/operations/to_array.js:36:13)
+    at handleCallback (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongodb/lib/utils.js:128:55)
+    at completeClose (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongodb/lib/cursor.js:859:16)
+    at Cursor.close (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongodb/lib/cursor.js:878:12)
+    at cursor._next (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongodb/lib/operations/to_array.js:35:25)
+  message:
+   'Schema hasn\'t been registered for model "tag".\nUse mongoose.model(name, schema)',
+  name: 'MissingSchemaError' }
+[2020-02-23T19:42:16.057] [ERROR] cheese - { MissingSchemaError: Schema hasn't been registered for model "category".
+Use mongoose.model(name, schema)
+    at new MissingSchemaError (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongoose/lib/error/missingSchema.js:22:11)
+    at NativeConnection.Connection.model (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongoose/lib/connection.js:1080:11)
+    at getModelsMapForPopulate (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongoose/lib/helpers/populate/getModelsMapForPopulate.js:262:59)
+    at populate (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongoose/lib/model.js:4294:21)
+    at _populate (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongoose/lib/model.js:4264:5)
+    at cb (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongoose/lib/model.js:4239:5)
+    at promiseOrCallback (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongoose/lib/helpers/promiseOrCallback.js:9:12)
+    at Function.Model.populate (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongoose/lib/model.js:4237:10)
+    at cb (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongoose/lib/query.js:1934:17)
+    at executeCallback (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongodb/lib/operations/execute_operation.js:74:5)
+    at handleCallback (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongodb/lib/utils.js:128:55)
+    at cursor.close (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongodb/lib/operations/to_array.js:36:13)
+    at handleCallback (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongodb/lib/utils.js:128:55)
+    at completeClose (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongodb/lib/cursor.js:859:16)
+    at Cursor.close (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongodb/lib/cursor.js:878:12)
+    at cursor._next (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongodb/lib/operations/to_array.js:35:25)
+  message:
+   'Schema hasn\'t been registered for model "category".\nUse mongoose.model(name, schema)',
+  name: 'MissingSchemaError' }
+[2020-02-23T19:50:20.331] [ERROR] cheese - { MissingSchemaError: Schema hasn't been registered for model "category".
+Use mongoose.model(name, schema)
+    at new MissingSchemaError (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongoose/lib/error/missingSchema.js:22:11)
+    at NativeConnection.Connection.model (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongoose/lib/connection.js:1080:11)
+    at getModelsMapForPopulate (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongoose/lib/helpers/populate/getModelsMapForPopulate.js:262:59)
+    at populate (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongoose/lib/model.js:4294:21)
+    at _populate (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongoose/lib/model.js:4264:5)
+    at cb (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongoose/lib/model.js:4239:5)
+    at promiseOrCallback (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongoose/lib/helpers/promiseOrCallback.js:9:12)
+    at Function.Model.populate (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongoose/lib/model.js:4237:10)
+    at cb (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongoose/lib/query.js:1934:17)
+    at executeCallback (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongodb/lib/operations/execute_operation.js:74:5)
+    at handleCallback (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongodb/lib/utils.js:128:55)
+    at cursor.close (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongodb/lib/operations/to_array.js:36:13)
+    at handleCallback (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongodb/lib/utils.js:128:55)
+    at completeClose (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongodb/lib/cursor.js:859:16)
+    at Cursor.close (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongodb/lib/cursor.js:878:12)
+    at cursor._next (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongodb/lib/operations/to_array.js:35:25)
+  message:
+   'Schema hasn\'t been registered for model "category".\nUse mongoose.model(name, schema)',
+  name: 'MissingSchemaError' }
+[2020-02-23T19:53:32.629] [ERROR] cheese - { MissingSchemaError: Schema hasn't been registered for model "tag".
+Use mongoose.model(name, schema)
+    at new MissingSchemaError (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongoose/lib/error/missingSchema.js:22:11)
+    at NativeConnection.Connection.model (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongoose/lib/connection.js:1080:11)
+    at getModelsMapForPopulate (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongoose/lib/helpers/populate/getModelsMapForPopulate.js:262:59)
+    at populate (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongoose/lib/model.js:4294:21)
+    at _populate (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongoose/lib/model.js:4264:5)
+    at cb (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongoose/lib/model.js:4239:5)
+    at promiseOrCallback (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongoose/lib/helpers/promiseOrCallback.js:9:12)
+    at Function.Model.populate (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongoose/lib/model.js:4237:10)
+    at cb (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongoose/lib/query.js:1934:17)
+    at executeCallback (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongodb/lib/operations/execute_operation.js:74:5)
+    at handleCallback (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongodb/lib/utils.js:128:55)
+    at cursor.close (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongodb/lib/operations/to_array.js:36:13)
+    at handleCallback (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongodb/lib/utils.js:128:55)
+    at completeClose (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongodb/lib/cursor.js:859:16)
+    at Cursor.close (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongodb/lib/cursor.js:878:12)
+    at cursor._next (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongodb/lib/operations/to_array.js:35:25)
+  message:
+   'Schema hasn\'t been registered for model "tag".\nUse mongoose.model(name, schema)',
+  name: 'MissingSchemaError' }
+[2020-02-23T19:56:45.556] [ERROR] cheese - { MissingSchemaError: Schema hasn't been registered for model "tag".
+Use mongoose.model(name, schema)
+    at new MissingSchemaError (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongoose/lib/error/missingSchema.js:22:11)
+    at NativeConnection.Connection.model (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongoose/lib/connection.js:1080:11)
+    at getModelsMapForPopulate (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongoose/lib/helpers/populate/getModelsMapForPopulate.js:262:59)
+    at populate (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongoose/lib/model.js:4294:21)
+    at _populate (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongoose/lib/model.js:4264:5)
+    at cb (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongoose/lib/model.js:4239:5)
+    at promiseOrCallback (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongoose/lib/helpers/promiseOrCallback.js:9:12)
+    at Function.Model.populate (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongoose/lib/model.js:4237:10)
+    at cb (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongoose/lib/query.js:1934:17)
+    at executeCallback (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongodb/lib/operations/execute_operation.js:74:5)
+    at handleCallback (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongodb/lib/utils.js:128:55)
+    at cursor.close (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongodb/lib/operations/to_array.js:36:13)
+    at handleCallback (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongodb/lib/utils.js:128:55)
+    at completeClose (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongodb/lib/cursor.js:859:16)
+    at Cursor.close (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongodb/lib/cursor.js:878:12)
+    at cursor._next (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongodb/lib/operations/to_array.js:35:25)
+  message:
+   'Schema hasn\'t been registered for model "tag".\nUse mongoose.model(name, schema)',
+  name: 'MissingSchemaError' }
+[2020-02-23T19:59:41.427] [ERROR] cheese - { MissingSchemaError: Schema hasn't been registered for model "tag".
+Use mongoose.model(name, schema)
+    at new MissingSchemaError (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongoose/lib/error/missingSchema.js:22:11)
+    at NativeConnection.Connection.model (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongoose/lib/connection.js:1080:11)
+    at getModelsMapForPopulate (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongoose/lib/helpers/populate/getModelsMapForPopulate.js:262:59)
+    at populate (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongoose/lib/model.js:4294:21)
+    at _populate (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongoose/lib/model.js:4264:5)
+    at cb (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongoose/lib/model.js:4239:5)
+    at promiseOrCallback (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongoose/lib/helpers/promiseOrCallback.js:9:12)
+    at Function.Model.populate (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongoose/lib/model.js:4237:10)
+    at cb (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongoose/lib/query.js:1934:17)
+    at executeCallback (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongodb/lib/operations/execute_operation.js:74:5)
+    at handleCallback (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongodb/lib/utils.js:128:55)
+    at cursor.close (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongodb/lib/operations/to_array.js:36:13)
+    at handleCallback (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongodb/lib/utils.js:128:55)
+    at completeClose (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongodb/lib/cursor.js:859:16)
+    at Cursor.close (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongodb/lib/cursor.js:878:12)
+    at cursor._next (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongodb/lib/operations/to_array.js:35:25)
+  message:
+   'Schema hasn\'t been registered for model "tag".\nUse mongoose.model(name, schema)',
+  name: 'MissingSchemaError' }
+[2020-02-23T20:01:59.913] [ERROR] cheese - { MissingSchemaError: Schema hasn't been registered for model "tag".
+Use mongoose.model(name, schema)
+    at new MissingSchemaError (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongoose/lib/error/missingSchema.js:22:11)
+    at NativeConnection.Connection.model (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongoose/lib/connection.js:1080:11)
+    at getModelsMapForPopulate (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongoose/lib/helpers/populate/getModelsMapForPopulate.js:262:59)
+    at populate (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongoose/lib/model.js:4294:21)
+    at _populate (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongoose/lib/model.js:4264:5)
+    at cb (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongoose/lib/model.js:4239:5)
+    at promiseOrCallback (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongoose/lib/helpers/promiseOrCallback.js:9:12)
+    at Function.Model.populate (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongoose/lib/model.js:4237:10)
+    at cb (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongoose/lib/query.js:1934:17)
+    at executeCallback (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongodb/lib/operations/execute_operation.js:74:5)
+    at handleCallback (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongodb/lib/utils.js:128:55)
+    at cursor.close (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongodb/lib/operations/to_array.js:36:13)
+    at handleCallback (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongodb/lib/utils.js:128:55)
+    at completeClose (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongodb/lib/cursor.js:859:16)
+    at Cursor.close (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongodb/lib/cursor.js:878:12)
+    at cursor._next (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongodb/lib/operations/to_array.js:35:25)
+  message:
+   'Schema hasn\'t been registered for model "tag".\nUse mongoose.model(name, schema)',
+  name: 'MissingSchemaError' }
+[2020-02-23T20:08:40.336] [ERROR] cheese - { MissingSchemaError: Schema hasn't been registered for model "Comment".
+Use mongoose.model(name, schema)
+    at new MissingSchemaError (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongoose/lib/error/missingSchema.js:22:11)
+    at NativeConnection.Connection.model (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongoose/lib/connection.js:1080:11)
+    at getModelsMapForPopulate (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongoose/lib/helpers/populate/getModelsMapForPopulate.js:262:59)
+    at populate (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongoose/lib/model.js:4294:21)
+    at _populate (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongoose/lib/model.js:4264:5)
+    at cb (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongoose/lib/model.js:4239:5)
+    at promiseOrCallback (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongoose/lib/helpers/promiseOrCallback.js:9:12)
+    at Function.Model.populate (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongoose/lib/model.js:4237:10)
+    at cb (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongoose/lib/query.js:1934:17)
+    at executeCallback (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongodb/lib/operations/execute_operation.js:74:5)
+    at handleCallback (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongodb/lib/utils.js:128:55)
+    at cursor.close (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongodb/lib/operations/to_array.js:36:13)
+    at handleCallback (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongodb/lib/utils.js:128:55)
+    at completeClose (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongodb/lib/cursor.js:859:16)
+    at Cursor.close (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongodb/lib/cursor.js:878:12)
+    at cursor._next (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/node_modules/mongodb/lib/operations/to_array.js:35:25)
+  message:
+   'Schema hasn\'t been registered for model "Comment".\nUse mongoose.model(name, schema)',
+  name: 'MissingSchemaError' }
+[2020-02-23T21:00:37.305] [ERROR] cheese - TypeError: Cannot read property 'findById' of undefined
+    at CommentController.<anonymous> (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/controllers/CommentController.ts:50:60)
+    at step (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/controllers/CommentController.ts:45:23)
+    at Object.next (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/controllers/CommentController.ts:26:53)
+    at fulfilled (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/controllers/CommentController.ts:17:58)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2020-02-23T21:01:32.340] [ERROR] cheese - TypeError: Cannot read property 'findById' of undefined
+    at CommentController.<anonymous> (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/controllers/CommentController.ts:50:60)
+    at step (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/controllers/CommentController.ts:45:23)
+    at Object.next (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/controllers/CommentController.ts:26:53)
+    at fulfilled (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/controllers/CommentController.ts:17:58)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2020-02-23T21:03:02.573] [ERROR] cheese - TypeError: Cannot read property 'findById' of undefined
+    at CommentController.<anonymous> (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/controllers/CommentController.ts:50:60)
+    at step (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/controllers/CommentController.ts:45:23)
+    at Object.next (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/controllers/CommentController.ts:26:53)
+    at fulfilled (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/controllers/CommentController.ts:17:58)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2020-02-23T21:03:50.367] [ERROR] cheese - TypeError: Cannot read property 'findById' of undefined
+    at CommentController.<anonymous> (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/controllers/CommentController.ts:50:60)
+    at step (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/controllers/CommentController.ts:45:23)
+    at Object.next (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/controllers/CommentController.ts:26:53)
+    at fulfilled (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/controllers/CommentController.ts:17:58)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2020-02-23T21:04:46.617] [ERROR] cheese - TypeError: Cannot read property 'findOne' of undefined
+    at CommentController.<anonymous> (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/controllers/CommentController.ts:50:60)
+    at step (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/controllers/CommentController.ts:45:23)
+    at Object.next (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/controllers/CommentController.ts:26:53)
+    at fulfilled (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/controllers/CommentController.ts:17:58)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2020-02-23T21:05:11.233] [ERROR] cheese - TypeError: Cannot read property 'comments' of null
+    at CommentController.<anonymous> (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/controllers/CommentController.ts:53:19)
+    at step (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/controllers/CommentController.ts:45:23)
+    at Object.next (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/controllers/CommentController.ts:26:53)
+    at fulfilled (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/controllers/CommentController.ts:17:58)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2020-02-23T21:05:47.748] [ERROR] cheese - TypeError: Cannot read property 'comments' of null
+    at CommentController.<anonymous> (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/controllers/CommentController.ts:54:19)
+    at step (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/controllers/CommentController.ts:45:23)
+    at Object.next (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/controllers/CommentController.ts:26:53)
+    at fulfilled (/Users/xiezhibin/Desktop/学习/code/gitubcode/blog-server-ts/controllers/CommentController.ts:17:58)
+    at process._tickCallback (internal/process/next_tick.js:68:7)

@@ -2,8 +2,18 @@ import { Container } from 'inversify'
 import { InversifyKoaServer, TYPE} from 'inversify-koa-utils'
 import { buildProviderModule } from 'inversify-binding-decorators'
 import 'reflect-metadata';
+
 import './controllers/TagController'
 import './services/TagService'
+import './controllers/UserController'
+import './services/UserService'
+import './controllers/ArticleController'
+import './services/ArticleService'
+import './controllers/CategoryController'
+import './services/CategoryService'
+import './controllers/CommentController'
+import './services/CommentService'
+
 import * as log4js from 'log4js'
 // import * as db from './mongoose/db'
 import {DbConnection} from "./db/utils/connection.db";
@@ -26,10 +36,6 @@ log4js.configure({
 
 const container = new Container();
 container.load(buildProviderModule())
-
-// import * as Joi from 'joi'
-// import * as JoiPhoneNumber from 'joi-phone-number'
-// Joi.extend(JoiPhoneNumber)
 
 const server = new InversifyKoaServer(container)
 
@@ -62,22 +68,24 @@ server.setConfig((app) => {
   CorsHandler(app)
   const logger = log4js.getLogger('cheese');
   //404错误页面
-  ErrorHandler.error404(app,logger)
+  // ErrorHandler.error404(app,logger)
 
   // 错误处理函数 同步操作 error handler
   ErrorHandler.error500(app,logger)
 
   //session 校验
   SessionCheck(app)
+
+  //数据库连接
+  DbConnection.initConnection();
+
+  DbConnection.setAutoReconnect();
 });
 
 // import Promise from 'bluebird'
 // global.Promise = Promise
 
-//数据库连接
-DbConnection.initConnection();
 
-DbConnection.setAutoReconnect();
 
 const app = server.build();
 

@@ -286,7 +286,8 @@ koa-session：
 JWT token 介绍：http://www.ruanyifeng.com/blog/2018/07/json_web_token-tutorial.html
 
 
-常规用户身份认证流程：
+
+通过cookie传递用户身份信息 认证流程：
 
 1、用户向服务器发送用户名和密码。
 
@@ -492,7 +493,7 @@ var container = new Container();
 container.load(buildProviderModule());
 ```
 
-#### typescript
+### typescript
 
 ts-node 可以使我们直接运行ts文件,而不用将ts编译为js文件后再执行,使用它,我们就能快速的进行ts的调试.
 
@@ -513,3 +514,45 @@ nodemon 可以监控文件的修改,当文件某文件一旦被修改,nodemon就
 ```javascript
 cnpm install -D @types/node
 ```
+
+### ts 前端参数校验
+
+先要分清楚，强类型和弱类型、静态类型和动态类型是两组不同的概念，类型强弱是针对类型转换是否显示来区分，静态和动态类型是针对类型检查的时机来区分。
+
+静态类型语言和动态类型语言得核心区别在于，静态类型语言（statically-typed languages）会在编译时（compile time）进行类型检查，而动态语言（dynamically-typed）则是在运行时进行类型检查（runtime）
+
+参考：https://blog.csdn.net/w_l_l/article/details/83031080
+
+所以typescript没有办法进行运行时的类型检查，因此运行时的数据检查需要借助一些第三方工具。
+
+常用的运行时数据类型校验：
+- PropTypes
+- json-scame
+- class-validator + class-transformer
+
+使用class-validator+ class-transformer实践
+- dtos 文件下定义接口数据
+- 利用class-transformer将json转成指定类的对象，然后使用
+- class-validator做校验
+
+封装 validator 中间件
+
+typescript中 mongoose 写法：https://brianflove.com/2016/10/04/typescript-declaring-mongoose-schema-model/
+
+demo：User
+
+```javascript
+//IUser
+export interface IUser {
+  email?: string;
+  firstName?: string;
+  lastName?: string;
+}
+```
+
+
+开源模块可以参考：https://github.com/microsoft/TypeScript-Node-Starter 
+
+bug记录：
+加了populate之后提示这个错误 Schema hasn't been registered for model "User" ？
+用populate查询的时候 要注意comments模式里的ref指向的user 要和 mongoose.model()里面的user一样 注意大小写

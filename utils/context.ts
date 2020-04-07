@@ -1,20 +1,21 @@
-import * as Joi from 'joi'
-
+import { validate as classValidator} from "class-validator";
+import { plainToClass } from 'class-transformer';
+import Router from 'koa-router' 
 /**
  *
  * @param {Object} params - 需要被验证的 key-value
- * @param {Object} schema - 验证规则
+ * @param {Object} dto - 验证规则
  * @return Promise
  */
-function validate(params = {}, schema = {}) {
+async function validate( dto,params = {} ):Promise<boolean> {
   const ctx = this
-  const validator = Joi.validate(params, Joi.object().keys(schema), { allowUnknown: true })
-  if (validator.error) {
-    // ctx.client(403, validator.error.message)
-    ctx.throw(400, validator.error.message)
+  const validator = await classValidator(plainToClass(dto,params),{ validationError: { target: false } })
+  if(validator.length > 0){
+    ctx.throw(400, Object.values(validator[0].constraints))
     return false
   }
   return true
+  
 }
 // 绑定 app.context  ctx.func 直接调用
 export default {

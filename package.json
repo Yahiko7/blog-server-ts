@@ -4,20 +4,20 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "dev": "ts-node app.ts --watch",
-    "watch-server": "nodemon --watch '**/*' -e ts,tsx --exec 'ts-node' ./app.ts"
+    "dev": "nodemon --watch '**/*' -e ts,tsx --exec 'ts-node' ./app.ts"
   },
   "dependencies": {
-    "@types/joi": "^14.3.4",
+    "axios": "^0.19.2",
     "bluebird": "^3.7.2",
     "body-parser": "^1.19.0",
     "chalk": "^3.0.0",
+    "class-transformer": "^0.2.3",
+    "class-validator": "^0.11.0",
     "inversify": "^5.0.1",
     "inversify-binding-decorators": "^4.0.0",
     "inversify-koa-utils": "^1.0.0",
     "ioredis": "^4.14.1",
-    "joi": "^14.3.1",
-    "joi-phone-number": "^4.0.0",
+    "jsonwebtoken": "^8.5.1",
     "koa-bodyparser": "^4.2.1",
     "koa-json": "^2.0.2",
     "koa-logger": "^3.2.1",
@@ -32,6 +32,8 @@
     "typescript": "^3.7.4"
   },
   "devDependencies": {
+    "@types/mongoose": "^5.7.1",
+    "@types/mongodb": "^3.3.16",
     "@types/node": "^13.5.2",
     "nodemon": "^2.0.2",
     "ts-node": "^8.6.2"

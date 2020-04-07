@@ -1,5 +1,6 @@
 const authenticateList = [
   '/user/loginAdmin',
+  '/user/register',
 ]
 
 const sessionCheck = function(app){
